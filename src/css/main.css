@@ -7,3 +7,9 @@
     word-break: break-word;
   }
 }
+
+@layer utilities {
+  .triangular-clip {
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 0% 100%);
+  }
+}
