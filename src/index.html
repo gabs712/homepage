@@ -26,11 +26,11 @@
       class="triangular-clip absolute left-0 top-0 -z-10 h-96 w-full bg-cyan-600"
     ></div>
     <header>
-      <div>
+      <div class="sm:m-10 sm:flex sm:items-center">
         <div
-          class="relative m-7 h-96 rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] overflow-hidden"
+          class="relative m-7 h-96 flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] sm:m-0 sm:w-80"
         >
-          <div class="bg-gray-300 absolute inset-0 animate-pulse"></div>
+          <div class="absolute inset-0 animate-pulse bg-gray-300"></div>
           <img
             class="size-full object-cover object-top brightness-90"
             loading="lazy"
@@ -38,13 +38,15 @@
             alt=""
           />
           <h1
-            class="drop-shadow-xg absolute bottom-0 left-1 font-playfair text-6xl leading-tight text-white"
+            class="drop-shadow-xg absolute bottom-0 left-1 font-playfair text-6xl leading-tight text-white sm:text-5xl"
           >
-            Andrew <br />
+            Andrew <br class="sm:hidden" />
             Ryan
           </h1>
         </div>
-        <div class="mx-3">
+        <div
+          class="mx-3 sm:shadow-[0_0_10px_rgb(0_0_0_/_.5)] sm:bg-white sm:m-0 sm:p-6"
+        >
           <h2 class="text-center font-playfair text-3xl text-slate-900">
             About me
           </h2>
@@ -58,7 +60,7 @@
             autem distinctio quo reiciendis tempore minima adipisci, ipsum
             illum.
           </p>
-          <div class="flex justify-center gap-4">
+          <div class="flex justify-center gap-4 sm:justify-end">
             <a
               aria-label="Twitter"
               target="_blank"
