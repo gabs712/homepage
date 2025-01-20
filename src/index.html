@@ -25,75 +25,84 @@
     <div
       class="triangular-clip absolute left-0 top-0 -z-10 h-96 w-full bg-cyan-600"
     ></div>
-    <header>
-      <div class="sm:m-10 sm:flex sm:items-center">
+    <div class="mx-auto max-w-screen-xl">
+      <header class="flex flex-col items-center">
         <div
-          class="relative m-7 h-96 flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] sm:m-0 sm:w-80"
+          class="flex flex-col items-center md:m-10 md:max-w-screen-lg md:flex-row"
         >
-          <div class="absolute inset-0 animate-pulse bg-gray-300"></div>
-          <img
-            class="size-full object-cover object-top brightness-90"
-            loading="lazy"
-            src="images/employee.jpg"
-            alt=""
-          />
-          <h1
-            class="drop-shadow-xg absolute bottom-0 left-1 font-playfair text-6xl leading-tight text-white sm:text-5xl"
+          <div
+            class="relative h-96 m-7 w-[calc(100%-3rem)] flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] md:m-0 md:w-72"
           >
-            Andrew <br class="sm:hidden" />
-            Ryan
-          </h1>
-        </div>
-        <div
-          class="mx-3 sm:shadow-[0_0_10px_rgb(0_0_0_/_.5)] sm:bg-white sm:m-0 sm:p-6"
-        >
-          <h2 class="text-center font-playfair text-3xl text-slate-900">
-            About me
-          </h2>
-          <p class="my-3 text-slate-600">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-            perspiciatis quibusdam accusantium eveniet necessitatibus blanditiis
-            ratione odit eaque reprehenderit, quod voluptate, natus itaque
-            aliquam atque obcaecati magni pariatur ab deserunt sequi quis
-            dignissimos distinctio unde fugit aliquid? Nulla eligendi minus
-            quas, suscipit ut quidem culpa. Quae corrupti vitae, non ab quos,
-            autem distinctio quo reiciendis tempore minima adipisci, ipsum
-            illum.
-          </p>
-          <div class="flex justify-center gap-4 sm:justify-end">
-            <a
-              aria-label="Twitter"
-              target="_blank"
-              href="https://twitter.com"
-              class="group text-xl hover:cursor-pointer"
+            <div class="absolute inset-0 animate-pulse bg-gray-300"></div>
+            <img
+              class="size-full object-cover object-top brightness-90"
+              loading="lazy"
+              src="images/employee.jpg"
+              alt=""
+            />
+            <h1
+              class="drop-shadow-xg absolute bottom-0 left-1 font-playfair text-6xl leading-tight text-white md:text-5xl"
             >
-              <div
-                class="devicon-twitter-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
-              ></div
-            ></a>
-            <a
-              aria-label="Github"
-              target="_blank"
-              href="https://github.com"
-              class="group text-xl hover:cursor-pointer"
+              Andrew <br class="md:hidden" />
+              Ryan
+            </h1>
+          </div>
+          <div
+            class="mx-3 md:m-0 md:bg-white md:p-6 md:shadow-[0_0_10px_rgb(0_0_0_/_.5)]"
+          >
+            <h2
+              class="text-center font-playfair text-3xl text-slate-900 md:mb-6 md:text-start"
             >
-              <div
-                class="devicon-github-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
-              ></div
-            ></a>
-            <a
-              aria-label="Linkedin"
-              target="_blank"
-              href="https://linkedin.com"
-              class="group text-xl hover:cursor-pointer"
-            >
-              <div
-                class="devicon-linkedin-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
-              ></div
-            ></a>
+              About me
+            </h2>
+            <p class="my-3 text-slate-600">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis ratione facilis possimus blanditiis inventore corrupti
+              quisquam aperiam, numquam, doloremque nam reiciendis molestiae
+              nisi repellat voluptatum voluptatem asperiores unde repellendus
+              voluptates provident veritatis eum, est perspiciatis dignissimos.
+              Quidem deleniti, harum nihil laboriosam tempore molestiae,
+              quaerat, similique sed cumque blanditiis vero.
+            </p>
+            <div class="flex justify-center gap-4 md:justify-end">
+              <a
+                aria-label="Twitter"
+                target="_blank"
+                href="https://twitter.com"
+                class="group text-xl hover:cursor-pointer"
+              >
+                <div
+                  class="devicon-twitter-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+                ></div
+              ></a>
+              <a
+                aria-label="Github"
+                target="_blank"
+                href="https://github.com"
+                class="group text-xl hover:cursor-pointer"
+              >
+                <div
+                  class="devicon-github-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+                ></div
+              ></a>
+              <a
+                aria-label="Linkedin"
+                target="_blank"
+                href="https://linkedin.com"
+                class="group text-xl hover:cursor-pointer"
+              >
+                <div
+                  class="devicon-linkedin-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+                ></div
+              ></a>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <main>
+        <h2 class="font-playfair text-3xl text-slate-900">My work</h2>
+        <ul></ul>
+      </main>
+    </div>
   </body>
 </html>
