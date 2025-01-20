@@ -31,7 +31,7 @@
           class="flex flex-col items-center md:m-10 md:max-w-screen-lg md:flex-row"
         >
           <div
-            class="relative h-96 m-7 w-[calc(100%-3rem)] flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] md:m-0 md:w-72"
+            class="relative m-7 h-96 w-[calc(100%-3rem)] flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] md:m-0 md:w-72"
           >
             <div class="absolute inset-0 animate-pulse bg-gray-300"></div>
             <img
@@ -99,9 +99,58 @@
           </div>
         </div>
       </header>
-      <main>
-        <h2 class="font-playfair text-3xl text-slate-900">My work</h2>
-        <ul></ul>
+      <main class="mx-3 mt-8">
+        <h2 class="mb-5 font-playfair text-3xl text-slate-900">My work</h2>
+        <ul class="grid">
+          <li class="rounded-sm shadow-[0_0_15px_rgb(0_0_0_/_.5)]">
+            <div
+              class="grid min-h-44 place-content-center p-6 text-center bg-red-800"
+            >
+              <p class="font-playfair text-3xl leading-2 text-white">
+                screenshot <br />
+                of project
+              </p>
+            </div>
+            <div class="min-h-32 p-6 pt-3">
+              <div class="mb-2 flex justify-between">
+                <h3 class="font-playfair text-lg">Project name</h3>
+                <div class="flex gap-3">
+                  <a
+                    aria-label="Github"
+                    target="_blank"
+                    href="https://github.com"
+                    class="group text-xl hover:cursor-pointer"
+                  >
+                    <div
+                      class="devicon-github-plain text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+                    ></div>
+                  </a>
+                  <a
+                    aria-label="Website page"
+                    target="_blank"
+                    href="https://google.com"
+                    class="group text-xl hover:cursor-pointer"
+                  >
+                    <svg
+                      class="w-5 translate-y-1 text-xl transition-transform hover:cursor-pointer group-hover:-translate-y-0.5 group-hover:scale-125 group-focus:-translate-y-0.5 group-focus:scale-125"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <title>open-in-new</title>
+                      <path
+                        d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <p class="text-slate-600">
+                Short description of the project. Just a couple of sentences
+                will do.
+              </p>
+            </div>
+          </li>
+        </ul>
       </main>
     </div>
   </body>
