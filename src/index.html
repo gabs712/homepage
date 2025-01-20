@@ -28,10 +28,10 @@
     <div class="mx-auto max-w-screen-xl">
       <header class="flex flex-col items-center">
         <div
-          class="flex flex-col items-center md:m-10 md:max-w-screen-lg md:flex-row"
+          class="flex flex-col items-center md:m-10 md:mb-0 md:max-w-screen-lg md:flex-row"
         >
           <div
-            class="relative m-7 h-96 w-[calc(100%-3rem)] flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] max-w-80 md:max-w-none md:m-0 md:w-72"
+            class="relative m-7 h-96 w-[calc(100%-3rem)] max-w-80 flex-none overflow-hidden rounded-md bg-white shadow-[0_0_10px_rgb(0_0_0_/_.5)] md:m-0 md:w-72 md:max-w-none"
           >
             <div class="absolute inset-0 animate-pulse bg-gray-300"></div>
             <img
@@ -99,14 +99,14 @@
           </div>
         </div>
       </header>
-      <main class="mx-3 mt-8">
+      <main class="mx-3 my-16">
         <h2 class="mb-5 font-playfair text-3xl text-slate-900">My work</h2>
-        <ul class="grid gap-10 grid-cols-[repeat(auto-fill,minmax(18rem,1fr))]">
+        <ul class="grid grid-cols-[repeat(auto-fill,minmax(18rem,1fr))] gap-10">
           <li class="rounded-sm shadow-[0_0_10px_rgb(0_0_0_/_.5)]">
             <div
-              class="grid min-h-44 place-content-center p-6 text-center bg-violet-600"
+              class="grid min-h-44 place-content-center bg-violet-600 p-6 text-center"
             >
-              <p class="font-playfair text-3xl leading-2 text-white">
+              <p class="leading-2 font-playfair text-3xl text-white">
                 screenshot <br />
                 of project
               </p>
@@ -152,9 +152,9 @@
           </li>
           <li class="rounded-sm shadow-[0_0_15px_rgb(0_0_0_/_.5)]">
             <div
-              class="grid min-h-44 place-content-center p-6 text-center bg-green-600"
+              class="grid min-h-44 place-content-center bg-green-600 p-6 text-center"
             >
-              <p class="font-playfair text-3xl leading-2 text-white">
+              <p class="leading-2 font-playfair text-3xl text-white">
                 screenshot <br />
                 of project
               </p>
@@ -200,9 +200,9 @@
           </li>
           <li class="rounded-sm shadow-[0_0_15px_rgb(0_0_0_/_.5)]">
             <div
-              class="grid min-h-44 place-content-center p-6 text-center bg-pink-600"
+              class="grid min-h-44 place-content-center bg-pink-600 p-6 text-center"
             >
-              <p class="font-playfair text-3xl leading-2 text-white">
+              <p class="leading-2 font-playfair text-3xl text-white">
                 screenshot <br />
                 of project
               </p>
@@ -248,9 +248,9 @@
           </li>
           <li class="rounded-sm shadow-[0_0_15px_rgb(0_0_0_/_.5)]">
             <div
-              class="grid min-h-44 place-content-center p-6 text-center bg-sky-600"
+              class="grid min-h-44 place-content-center bg-sky-600 p-6 text-center"
             >
-              <p class="font-playfair text-3xl leading-2 text-white">
+              <p class="leading-2 font-playfair text-3xl text-white">
                 screenshot <br />
                 of project
               </p>
@@ -296,9 +296,9 @@
           </li>
           <li class="rounded-sm shadow-[0_0_15px_rgb(0_0_0_/_.5)]">
             <div
-              class="grid min-h-44 place-content-center p-6 text-center bg-yellow-600"
+              class="grid min-h-44 place-content-center bg-yellow-600 p-6 text-center"
             >
-              <p class="font-playfair text-3xl leading-2 text-white">
+              <p class="leading-2 font-playfair text-3xl text-white">
                 screenshot <br />
                 of project
               </p>
@@ -344,9 +344,9 @@
           </li>
           <li class="rounded-sm shadow-[0_0_15px_rgb(0_0_0_/_.5)]">
             <div
-              class="grid min-h-44 place-content-center p-6 text-center bg-red-600"
+              class="grid min-h-44 place-content-center bg-red-600 p-6 text-center"
             >
-              <p class="font-playfair text-3xl leading-2 text-white">
+              <p class="leading-2 font-playfair text-3xl text-white">
                 screenshot <br />
                 of project
               </p>
@@ -393,5 +393,66 @@
         </ul>
       </main>
     </div>
+    <footer>
+      <div class="flex flex-col bg-cyan-600 text-sm text-white">
+        <div class="space-y-5 self-center p-3 pb-14">
+          <h2 class="text-center font-playfair text-3xl">Contact me</h2>
+          <p class="ml-0">
+            Please get in touch if you think our work could be mutually
+            beneficial!
+          </p>
+          <p>
+            1234 Random Road <br />
+            Random Town, California 12345
+          </p>
+          <div><p>555-555-5555</p></div>
+          <div><p>andrewryan@rapture.com</p></div>
+          <div class="flex justify-center gap-4 md:justify-end">
+            <a
+              aria-label="Twitter"
+              target="_blank"
+              href="https://twitter.com"
+              class="group text-xl hover:cursor-pointer"
+            >
+              <div
+                class="devicon-twitter-plain text-3xl text-black transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+              ></div
+            ></a>
+            <a
+              aria-label="Github"
+              target="_blank"
+              href="https://github.com"
+              class="group text-xl hover:cursor-pointer"
+            >
+              <div
+                class="devicon-github-plain text-3xl text-black transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+              ></div
+            ></a>
+            <a
+              aria-label="Linkedin"
+              target="_blank"
+              href="https://linkedin.com"
+              class="group text-xl hover:cursor-pointer"
+            >
+              <div
+                class="devicon-linkedin-plain text-3xl text-black transition-transform hover:cursor-pointer group-hover:-translate-y-1 group-hover:scale-125 group-focus:-translate-y-1 group-focus:scale-125"
+              ></div
+            ></a>
+          </div>
+        </div>
+        <div class="">
+          <div class="relative bg-white">
+            <div
+              class="absolute size-full inset-0 animate-pulse bg-gray-300"
+            ></div>
+            <img
+              src="images/employee-footer.jpg"
+              class="min-h-60 max-h-80 size-full object-cover object-[center_20%] brightness-90"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
